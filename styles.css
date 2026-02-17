@@ -211,6 +211,13 @@ body {
     margin-bottom: 1rem;
 }
 
+.poem-break {
+    text-align: center;
+    margin: 2rem 0;
+    color: var(--color-accent);
+    font-size: 1.2rem;
+}
+
 /* Voice Section */
 .section-voice {
     background: var(--color-bg);
