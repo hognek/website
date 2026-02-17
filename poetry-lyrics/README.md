@@ -13,6 +13,7 @@ This folder contains poems and lyrics in various stages of completion.
 1. **Where Love Breathes** — The recognition of love across silence
 2. **Two Hearts, One Beat** — The dissolution of separation into one pulse
 3. **The Precipice** — Falling into love or awakening to truth
+4. **Where Darkness and Light Make Love** — The 6-59 channel in lyric form
 
 ### In Progress
 - (None yet)
