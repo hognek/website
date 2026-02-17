@@ -26,4 +26,4 @@ Then blending back to one?
 
 ---
 
-*Hogne Kirkebø*
+© 2026 Hogne Kirkebø

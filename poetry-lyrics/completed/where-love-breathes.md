@@ -32,4 +32,4 @@ Love breathes, unspoken.
 
 ---
 
-*Hogne Kirkebø*
+© 2026 Hogne Kirkebø

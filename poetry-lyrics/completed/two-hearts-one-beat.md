@@ -52,4 +52,4 @@ The same ocean.
 
 ---
 
-*Hogne Kirkebø*
+© 2026 Hogne Kirkebø
