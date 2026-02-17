@@ -190,6 +190,8 @@ body {
     padding: 2.5rem;
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: column;
 }
 
 .poem-title {
@@ -205,10 +207,67 @@ body {
     font-size: 1.1rem;
     line-height: 1.8;
     color: var(--color-text-muted);
+    flex-grow: 1;
 }
 
 .poem-content p {
     margin-bottom: 1rem;
+}
+
+/* Expandable poem styles */
+.poem-card-expandable {
+    position: relative;
+}
+
+.poem-content-collapsed {
+    max-height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.poem-content-collapsed::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background: linear-gradient(transparent, var(--color-bg));
+    pointer-events: none;
+}
+
+.poem-content-collapsed.expanded {
+    max-height: none;
+    overflow: visible;
+}
+
+.poem-content-collapsed.expanded::after {
+    display: none;
+}
+
+.poem-expand-content {
+    display: block;
+}
+
+.poem-expand-btn {
+    display: block;
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background: transparent;
+    border: 1px solid var(--color-accent);
+    color: var(--color-accent);
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: var(--transition);
+    align-self: flex-start;
+}
+
+.poem-expand-btn:hover {
+    background: var(--color-accent);
+    color: var(--color-bg);
 }
 
 .poem-break {

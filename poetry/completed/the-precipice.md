@@ -27,12 +27,3 @@ Then blending back to one?
 ---
 
 *Hogne Kirkebø*
-
----
-
-## Notes
-
-Draft version. Considering:
-- Remove all em-dashes for cleaner flow
-- Stanza breaks for breathing room
-- The question structure: falling vs. awakening

@@ -21,3 +21,19 @@ window.addEventListener('scroll', () => {
         nav.style.background = 'rgba(10, 10, 11, 0.9)';
     }
 });
+
+// Poem expand functionality
+document.querySelectorAll('.poem-expand-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+        const card = this.closest('.poem-card-expandable');
+        const content = card.querySelector('.poem-content-collapsed');
+        
+        if (content.classList.contains('expanded')) {
+            content.classList.remove('expanded');
+            this.textContent = 'Read more';
+        } else {
+            content.classList.add('expanded');
+            this.textContent = 'Show less';
+        }
+    });
+});
